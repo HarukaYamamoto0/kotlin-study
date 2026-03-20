@@ -1,6 +1,6 @@
 @file:Suppress("KotlinConstantConditions")
 
-package com.harukadev
+package com.harukadev.basics
 
 fun main() {
     var neverNull: String = "This can't be null"

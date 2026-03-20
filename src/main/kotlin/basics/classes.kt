@@ -1,4 +1,4 @@
-package com.harukadev
+package com.harukadev.basics
 
 fun main() {
     val contact = Contact(

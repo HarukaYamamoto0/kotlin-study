@@ -1,4 +1,4 @@
-package com.harukadev
+package com.harukadev.basics
 
 val registeredUsernames = mutableListOf("john_doe", "jane_smith")
 val registeredEmails = mutableListOf("john@example.com", "jane@example.com")
