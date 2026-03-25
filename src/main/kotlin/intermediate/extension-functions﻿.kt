@@ -1,7 +1,5 @@
 package com.harukadev.intermediate
 
-import jdk.internal.net.http.common.Log.headers
-
 fun main() {
     println("Hello".bold())
 

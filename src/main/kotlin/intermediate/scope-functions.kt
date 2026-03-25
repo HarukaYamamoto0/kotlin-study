@@ -27,7 +27,7 @@ fun main() {
         .reversed()
         .also { println(it) }
 
-    val mainMonitorPrimaryBufferBackedCanvas = Canvas()
+    val mainMonitorPrimaryBufferBackedCanvas = Canvas1()
 
     with(mainMonitorPrimaryBufferBackedCanvas) {
         text(10, 10, "Foo")
@@ -62,7 +62,7 @@ class Client() {
     }
 }
 
-class Canvas {
+class Canvas1 {
     fun rect(x: Int, y: Int, w: Int, h: Int): Unit = println("$x, $y, $w, $h")
     fun circ(x: Int, y: Int, rad: Int): Unit = println("$x, $y, $rad")
     fun text(x: Int, y: Int, str: String): Unit = println("$x, $y, $str")
